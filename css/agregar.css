@@ -1,0 +1,231 @@
+.contenedor{
+    width: 100vw;
+    background: #f1efef;
+    text-align: center;
+    padding:5rem 1rem;
+    box-sizing: border-box;
+}
+
+    .contenedor h1{
+        font-style: normal;
+        text-align: center;
+        font-weight: 700;
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+        color:#464646;
+
+    }
+
+        .agregar-movil{
+            width: 60%;
+            height: 20vh;
+            background: #ffffff ;
+            margin:8px 6.5rem;
+            padding:2rem;
+            gap:1rem;
+            border: 2px dashed #C8C8C8;
+            box-sizing: border-box;
+        }
+
+
+            .oculto{
+                display:none;
+            }
+            .textoMovil-agregar{
+
+                font-size: .8rem;
+                line-height: 1.2rem;
+                font-weight: 400;
+                align-items: center;
+                color:#6b6b6b;
+                margin:1rem 0;
+
+            }
+
+.formAgregar{
+    margin:1rem 1.5rem;
+}
+.input{
+    position:relative;
+    box-sizing: border-box;
+
+}
+    .inputdoble{
+        width: 80%;
+        height: 4rem;
+        max-height: 45px;
+        margin: .5rem 0;
+        border: transparent;
+        background: #FFFFFF;
+        border-radius: 7px;
+        padding-left: 1rem;
+        box-sizing: border-box;
+        color: #1d1d1d;
+        font-size: 16px;
+        line-height: 20px;
+        text-orientation: unset;
+        border-bottom: solid #50b7e0 3px;
+
+    }
+
+
+    .descprod{
+        width: calc(74vw - 2rem);
+        padding:1rem;
+        border:transparent;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;  
+        box-sizing: border-box; 
+        line-height: 30px; 
+        left: calc(50% - 328px/2);
+        border-bottom: solid #50b7e0 3px;
+        margin: .5rem 0;
+        color: #020202;
+        border-radius: 10px;
+
+
+    }
+
+    .agregar{
+        margin:1rem 0;
+        width: 25vh;
+        height: 3rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.2rem;
+        align-items: center;
+        margin-left: 8rem;
+
+
+    }
+
+    .agregar:hover{
+        color: rgb(255, 255, 255);
+        background: #084d75;
+        transform: scale(1.1);
+        filter: drop-shadow(5px 4px 1px hsl(0, 0%, 68%));
+        transition: .1s all;
+        border: 1px solid #2A7AE4;
+    }
+
+
+
+    @media screen and (min-width:768px){
+        .img-movil, .agregar-movil, .textoMovil-agregar{
+            display: none;
+        }
+        .oculto{
+            display: block;
+            padding: 0rem 25rem;
+        }
+        .agregar-tablet{
+            background: #FFFFFF;
+            border: 2px dashed #C8C8C8;
+            padding: 2rem;
+            text-align: center;
+            box-sizing: border-box;
+            margin: .8rem;
+        }
+
+
+        .imagen-blanco{
+            display: flex;
+            align-items: center;
+            width: 60vw;
+            box-sizing: border-box;
+
+            justify-content: left;
+        }
+        .desc-agregar{
+            color: #6b6b6b;
+            font-size: .8rem;
+            font-weight: 400;
+            line-height: 1.2rem;
+            align-items: center;
+            text-align: center;
+            margin: 1rem 0;
+            width: 20vw;
+        }
+
+        .link-agregar{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #2A7AE4;
+            font-size: 1rem;
+            font-weight: 400;
+            color: #ffffff;
+            border: 3px solid #50b7e0;
+            padding: 0.7em;
+            box-sizing: border-box;
+            margin:0 .8rem;
+            border-radius: 20px;
+            border: transparent;
+
+        }
+
+        .link-agregar:hover{
+            color: rgb(255, 255, 255);
+            background: #0e7ebe;
+            transform: scale(1.1);
+            filter: drop-shadow(5px 4px 1px hsl(0, 0%, 68%));
+            transition: .1s all;
+        }
+        .inputablet{
+            width: calc(55vw - 2rem);
+
+
+        }
+
+        .descprod{
+            width: calc(35vw - 2rem);
+        }
+
+
+        .agregar{
+
+            width: 25vh;
+            height: 3rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.2rem;
+            align-items: center;
+            margin-left: 34rem;
+
+        }
+
+        .inputdoble{
+            width: 35%;
+        }
+
+
+    }
+
+
+    @media screen and (min-width:1440px){
+
+        .contenedor{
+            padding:5rem 20rem;
+            text-align: left;
+
+        }
+        .imagen-blanco{
+            width: 40vw;
+
+        }
+        .inputablet, .descprod, .agregar{
+            width: calc(60vw - 2rem);
+
+
+        }
+        .input{
+            width: calc(55vw - 2rem);
+        }
+
+        .formAgregar{
+            margin:1rem 3rem;
+        }
+
+
+
+    }

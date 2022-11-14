@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+ <!--Sección head-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Only Shoes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/normalize.css"rel="stylesheet" />
+    <link href="css/bases.css" rel="stylesheet" />
+    <link href="css/agregar.css" rel="stylesheet" />
+    <link href="css/cabecera.css" rel="stylesheet" />
+    <link href="css/productos.css" rel="stylesheet" />
+    <link href="css/contacto.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="imagenes/img-header/logo-icon.png" >
+
+</head>
+ <!--Sección cabecera, login-->
+    <body>
+        <header class="cabecera">
+            <div class="header__cabecera">
+                <div class="header-logo">
+                    <img src="imagenes/sandalia.png" width="55px" height="55px" alt="Imagen de sandalia">
+                    <h1 class="header__logo-text"><span>ONLY</span>SHOES</h1>
+                    <input class="text-input" type="text"placeholder="¿Que deseas buscar?">
+                    
+                </div>
+
+                <a href="login.html" class="login-btn">Login</a>
+            </div>        
+            
+            <div class="cabecera-movil">
+                <div class="logo-movil">
+                    <img class="cabecera-movil-logo" src="./imagenes/img-header/Logo.png" alt="logo">
+                    <a href="login.html" class="login-btn">Login</a>
+                    <button type="button" class="lupa-movil"><img  src="imagenes/lupa-cabecera-movil.png"></button>
+
+                </div>          
+                
+                <div class="buscador"> 
+                    <input class="text-input" type="text"placeholder="¿Qué deseas buscar?">               
+                                    
+                </div>   
+                
+
+            </div>
+        </header>
+        
+     <!--Sección agregar productos-->
+        <main>
+            <section class="contenedor">
+                
+                <h1>Agregar nuevo producto</h1>
+                <div class="agregar-movil">
+                    <a href="#"><img class="img-movil" src="imagenes/agregar-movil.png"></a> 
+                    <p class="textoMovil-agregar">Agregar una imagen para el producto</p>
+                    
+                </div>
+                    
+                <div class="seccionImagen oculto">
+                    <div class="imagen-blanco">
+                        <div class="agregar-tablet">
+                            <img class="img"src="./imagenes/agregar-prod.png" alt="imagen agregar">
+                            <p class="desc-agregar">Arrastra para agregar una imagen para el producto </p>
+
+                        </div>
+                       
+                        <img src="./imagenes/O.png" >
+                        <a class="link-agregar" href="#">Busca en tu computadora</a>
+        
+                    </div>
+                    
+                </div>
+                        
+
+                <form class="formAgregar">
+                    <div class="input">
+                        <input class="inputdoble inputablet" type="text" placeholder="Nombre del producto" >
+                        
+
+                    </div>
+                    <div class="input">
+                        <input class="inputdoble inputablet" type="text" placeholder="Precio del producto" >
+                        
+
+                    </div>
+                    <textarea class="descprod"  id="mensaje" placeholder="Descripción del producto"  required ></textarea>
+                    
+                    <input type="submit" value ="Agregar producto" class="agregar btn">
+
+                </form>
+                
+            </section>
+
+        </main>
+
+      <!--Sección footer-->   
+        <footer >
+            <section class="contacto">
+                <div class="movilcontacto">
+                    <div class="logoempresa">
+                        <img class="movilcontacto-logo" src="imagenes/sandalia.png" width="50px" height="50px" alt="logo">
+                    </div>
+                    <div class="links">
+                        <a href="#">Quienes Somos</a>
+                        <a href="#">Politica Provacidad</a>
+                        <a href="#">Programa de fidelidad</a>
+                        <a href="#">Nuestras Tiendas</a>
+                        <a href="#">Quiero ser franquiciado</a>
+                        <a href="#">Anuncie aquí</a>
+        
+                    </div>
+                </div>
+                <form class="form">
+                    <h3>Habla con nosotros</h3>
+                    <div class="input forminput">
+                        <input class="inputdoble"type="text" placeholder="Nombre" maxlength="40" required >
+        
+                    </div>
+                    <textarea class="desc" type="text" placeholder="Escribe tu mensaje" maxlength="120" required></textarea>
+                    <input type="submit" value ="Enviar Mensaje" class="enviar btn">
+        
+                </form>
+        
+        
+            </section>
+            <section class="piepagina">
+                <p> © Derechos reservados 2022 ONLY SHOES|</p>
+            </section>
+
+        </footer>
+        <script type="text/javascript" src="visual.js"></script>
+        
+    </body>
+
+</html>

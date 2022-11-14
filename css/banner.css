@@ -1,0 +1,95 @@
+
+/*version movil*/
+
+.banner{
+    box-sizing: border-box;
+    color:#e2a4c1;
+    width: 100vw;
+    height: 75vh;
+    min-height: 100px;
+    background: url('../imagenes/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 4rem;
+    padding-bottom: 8rem;
+    margin-top: 72px;
+    gap: 0.5rem;
+
+
+
+
+}
+    .banner-titulo{
+        display: flex;
+        align-items: center;
+        font-size: 3rem;
+        font-weight: 600;
+        height: 5rem;
+        text-shadow: 6px 3px #000000;
+
+
+
+    }
+    .banner-destacado{
+        font-weight: 500;
+        font-size: 2.23em;
+        height: 7rem;
+        text-shadow: 3px 2px #000000;
+
+
+    }
+    .btnconsola{
+        width: 30%;
+        max-width: 150px;
+        font-size: 1.3rem;
+        font-weight: 300;
+
+
+    }
+
+
+
+    @media screen  and (min-width: 768px){
+        .banner-titulo{
+            font-size: 4rem;
+            font-weight: 700;
+
+
+        }
+        .banner-destacado{
+            font-size: 2.5rem;
+            line-height: 2rem;
+            font-weight: 700;
+            text-shadow: 3px 3px #000000;
+
+        }
+        .btnconsola{
+            width: 40%;
+
+
+        }
+
+
+
+
+
+    }
+
+    @media screen  and (min-width: 1440px){
+        .banner{
+            height: 40vh;
+            padding-left: 9rem;
+
+
+        }
+        .btnconsola{
+            font-size: 1rem;
+            font-weight: 400;
+            height: auto;
+        }
+
+    }

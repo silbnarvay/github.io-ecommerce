@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- Sección head-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Only Shoes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/normalize.css"rel="stylesheet" />
+    <link href="css/bases.css" rel="stylesheet" />
+    <link href="css/login.css" rel="stylesheet" />
+    <link href="css/agregar.css" rel="stylesheet" />
+    <link href="css/cabecera.css" rel="stylesheet" />
+    <link href="css/productos.css" rel="stylesheet" />
+    <link href="css/contacto.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="imagenes/img-header/logo-icon.png" >
+
+</head>
+
+ <!--Sección cabecera, login. logo móvil-->
+    <body>
+        <header class="cabecera">
+            <div class="header__cabecera">
+                <div class="header-logo">
+                    <img src="imagenes/sandalia.png" width="55px" height="55px" alt="Imagen de sandalia">
+                    <h1 class="header__logo-text"><span>ONLY</span>SHOES</h1>
+                    <input class="text-input" type="text"placeholder="¿Qué deseas buscar?">
+                    
+                </div>
+
+                <a href="login.html" class="login-btn">Login</a>
+            </div>        
+            
+            <div class="cabecera-movil">
+                <div class="logo-movil">
+                    <img class="cabecera-movil-logo" src="./imagenes/img-header/Logo.png" alt="logo">
+                    <a href="login.html" class="login-btn">Login</a>
+                    <button type="button" class="lupa-movil"><img  src="imagenes/lupa-cabecera-movil.png"></button>
+
+                </div>          
+                
+                <div class="buscador"> 
+                    <input class="text-input" type="text"placeholder="¿Que deseas buscar?">               
+                                    
+                </div>   
+                
+
+            </div>
+        </header>
+        
+  <!--Sección login-->       
+        <main>
+    
+                <section >
+                    <form class="login">
+                        <h3>Iniciar Sesión</h3>
+                        <input type="email" placeholder="Escriba su correo electrónico" required>
+                        <input  type="text" placeholder="Escriba su contraseña" required>
+                        <button class="entrar btn"><a href="index.html" class="entrar">Entrar</button>
+                    </form>
+
+                </section>
+        </main>
+
+ <!--Sección footer-->
+        <footer >
+            <section class="contacto">
+                <div class="movilcontacto">
+                    <div class="logoempresa">
+                        <img class="movilcontacto-logo" src="imagenes/sandalia.png" width="50px" height="50px" alt="logo">
+                    </div>
+                    <div class="links">
+                        <a href="#">Quienes Somos</a>
+                        <a href="#">Politica Provacidad</a>
+                        <a href="#">Programa de fidelidad</a>
+                        <a href="#">Nuestras Tiendas</a>
+                        <a href="#">Quiero ser franquiciado</a>
+                        <a href="#">Anuncie aqui</a>
+        
+                    </div>
+                </div>
+                <form class="form">
+                    <h3>Habla con nosotros</h3>
+                    <div class="input forminput">
+                        <input class="inputdoble"type="text" placeholder="Nombre" maxlength="120" required >
+        
+                    </div>
+                    <textarea class="desc" type="text" placeholder="Escribe tu mensaje" maxlength="90" required style="width: 400px; height: 120px; min-width: 293px;"></textarea>
+                    <input type="submit" value ="Enviar Mensaje" class="enviar btn">
+        
+                </form>
+        
+        
+            </section>
+            <section class="piepagina">
+                <p> © Derechos reservados 2022 ONLY SHOES |</p>
+            </section>
+
+        </footer>
+        <script type="text/javascript" src="visual.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+.piepagina{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #e2a4c1;
+    width: 100vw;
+    text-align: center;
+    padding:2rem;
+    max-height: 70px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,122 @@
+.prod-seleccionado{
+    background-color: rgb(230, 243, 243);
+    width: 100vw;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+
+.prod-sel-img{
+
+    width: 80vw;
+    padding: 3rem 0rem 0rem 5rem;
+    box-sizing: border-box;
+
+}
+    .img-sel{
+        min-width: 290px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 350px;
+        object-fit: cover;
+    }
+
+.prod-sel-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2.5rem;
+    box-sizing: border-box;
+
+}
+    .prod-sel-nom{
+        color:#464646;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+        margin-bottom: 0.87rem;
+        padding: 0 2rem;
+
+
+    }
+    .prod-sel-precio {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:#464646;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.1875rem;
+        margin-bottom: 0.87rem;
+        padding: 0 3rem;
+
+    }
+    .prod-sel-desc{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:#464646;
+        align-items: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-bottom: 0.87rem;
+        padding: 0 3rem;
+
+
+    }
+    .prod-sel-similares{
+        color: #464646;
+        font-weight: 700;
+        font-size: 1.1rem;
+
+        text-align: left;
+        padding: 1rem 4rem;
+    }
+
+
+
+    @media screen and (min-width:768px){
+        .prod-seleccionado{
+            display: flex;
+            margin-top: 3rem;
+            padding: 3rem 2rem 3rem 2rem;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+    }
+
+
+    @media screen and (min-width:1440px){
+        .prod-sel-desc{
+            font-size: 1.3rem;
+            line-height: 1.5rem;
+
+
+
+        }
+
+        .prod-sel-nom{
+            font-size: 3rem;
+        }
+        .prod-sel-img{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: calc(50vw - 4rem);
+        }
+        .prod-sel-precio{
+            font-size: 1.8rem;
+            line-height: 1.3rem;
+        }
+        .prod-sel-similares{
+            font-size: 2rem;
+            padding:2rem;
+        }
+        .prod-sel-texto{
+            width: calc(50vw - 3rem);
+        }
+
+    }
+
